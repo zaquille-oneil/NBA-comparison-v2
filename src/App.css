@@ -9,6 +9,7 @@ html,body {
 }
 
 .App-header {
+
    z-index: 1;
    position: fixed;
    width: 100%;
@@ -26,7 +27,7 @@ html,body {
 .stat-cards {
    display:flex;
    justify-content: center;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
    flex-direction: row;
 }
 
@@ -92,8 +93,8 @@ html,body {
 .right-col {
    width: 400px;
    height: 360px;
-   margin-top: 30px;
    margin-left: 10px;
+   margin-top: 30px;
    padding-left: 50px;
    padding-right: 50px;
    box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.6);
@@ -102,7 +103,7 @@ html,body {
 }
 
 .result {
-   width: 600px;
+   width: 400px;
    height: 360px;
    margin-top: 20px;
    padding: 10px;
