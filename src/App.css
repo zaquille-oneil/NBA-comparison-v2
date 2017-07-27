@@ -1,0 +1,141 @@
+html,body {
+  background-color: #ED174C;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+   z-index: 1;
+   position: fixed;
+   width: 100%;
+   text-align: center;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.6);
+  text-transform: uppercase;
+  font-size: 5em;
+  background-color: #006BB6;
+  color: white;
+
+  display:flex;
+  flex-direction: column;
+}
+
+.stat-cards {
+   display:flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+   flex-direction: row;
+}
+
+.data-button {
+   align-self: flex-start;
+}
+
+.content {
+   position: absolute;
+   top: 150px;
+
+   font-weight:lighter;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #312F2F;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.Select {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 400px;
+}
+
+.selection-panel {
+   height: 55px;
+   display: flex;
+   flex-direction: row;
+}
+
+.player-btn {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 36px;
+}
+
+.player-title {
+   align-self: center;
+   text-transform: uppercase;
+   white-space: pre;
+   height: 60px;
+   margin: 5px;
+   font-family: 'Georgia';
+   font-size: 1.5em;
+   font-weight: 900;
+   color: #312F2F;
+}
+
+.left-col {
+   width: 400px;
+   height: 360px;
+   margin-top: 30px;
+   margin-right: 10px;
+   padding-right: 50px;
+   padding-left: 50px;
+   box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.6);
+   background-color: white;
+   border-radius: 8px;
+}
+
+.right-col {
+   width: 400px;
+   height: 360px;
+   margin-top: 30px;
+   margin-left: 10px;
+   padding-left: 50px;
+   padding-right: 50px;
+   box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.6);
+   background-color: white;
+   border-radius: 8px;
+}
+
+.result {
+   width: 600px;
+   height: 360px;
+   margin-top: 20px;
+   padding: 10px;
+   background-color: white;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.stat-box {
+   margin-top: 20px;
+   background-color: rgba(200,200,200,.4);
+   /*border: 5px solid rgb(0,0,200);
+
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;*/
+}
+
+/*table {
+    width: 100%;
+
+}*/
+
+/*td, th {
+    text-align: left;
+    padding: 8px;
+}*/
+
+/*tr:nth-child(even) {
+    background-color: rgba(0,0,0,.4);
+}*/
